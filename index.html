@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c7edfd842.js" crossorigin="anonymous"></script>
+    <style> 
+        @font-face {
+           font-family: myFirstFont;
+           src: url(./FONTS/Montserrat-Regular.ttf);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div id="main">
+        <form>
+            <div id="contact-info">
+                <h2>Contact Information</h2>
+                <div class="combo">
+                    <label for="Email">Email</label>
+                        <div class="sub-combo">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <input type="email" name="" id="" placeholder="Enter your email.." >
+                        </div>
+                    
+                </div>
+                <div class="combo">
+                    <label for="phone">Phone</label>
+                        <div class="sub-combo">
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                            <input type="tel" name="" id="" placeholder="Enter your phone..">
+                        </div>
+
+                    
+                </div>
+            </div>
+            <div id="shipping-address">
+                <h2>Shipping Address</h2>
+                <div class="combo">
+                    <label for="fullname">Full Name</label>
+                        <div class="sub-combo">
+                            <i class= "fas fa-user" aria-hidden="true"></i>
+                            <input type="text" name="" id="" placeholder="Enter your Full">
+                        </div>
+                    
+                </div>
+                <div class="combo">
+                    <label for="address">Address</label>
+                        <div class="sub-combo">
+                            <i class= "fas fa-home" aria-hidden="true"></i>
+                            <input type="text" name="" id="" placeholder="Enter your Full">
+                        </div>
+                    
+                </div>
+                <div class="combo">
+                    <label for="city">City</label>
+                    <div class="sub-combo">
+                        <i class= "fas fa-city" aria-hidden="true"></i>
+                        <input type="text" name="" id="" placeholder="Enter your Full">
+                    </div>
+                    
+                </div>
+                <div class="doubled-combo">
+                    <div class="combo-country">
+                        <label for="country">Country</label>
+                        <div class="sub-combo">
+                            <i class= "fas fa-globe-europe" aria-hidden="true"></i>
+                            <select name="your-country" id="user-country" required>
+                                <option value="Turkey">Turkey</option>
+                                <option value="Turkey">Germany</option>
+                                <option value="Turkey">USA</option>
+                                <option value="Turkey">Canada</option>
+                                <option value="Turkey">UK</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="combo-postcode">
+                        <label for="post-code">Post Code </label>
+                        <div class="sub-combo">
+                            <i class= "fas fa-mail-bulk" aria-hidden="true"></i>
+                            <input type="text" name="" id="" placeholder="Enter your Full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    
+
+        <div id="product-review">
+            <div class="product-panel">
+                <div class="product product1">
+                    <img src="./IMG/photo1.png" alt="">
+                    <div class="product-info">
+                        <h3>Vintage Backbag</h3>
+                        <p>
+                            <strong>$54.99</strong>
+                            <strike>$94.99</strike>
+                        </p>
+                        <div class="quantity-controller">
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product product2">
+                    <img src="./IMG/photo2.png" alt="">
+                    <div class="product-info">
+                        <h3>Vintage Backbag</h3>
+                        <p>
+                            <strong>$54.99</strong>
+                            <strike>$94.99</strike>
+                        </p>
+                        <div class="quantity-controller">
+                            <button>
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="shipping">
+                    <p>Shipping</p>
+                    <p>$19</p>
+
+                </div>
+                <div class="total">
+                    <p>Total</p>
+                    <p>$148.99</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="send">
+        <h1>Gönder</h1>
+    </div>
+    
+</body>
+</html>

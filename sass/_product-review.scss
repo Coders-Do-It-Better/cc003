@@ -1,0 +1,54 @@
+#product-review{
+    margin: auto !important;
+    width: 85%;
+    box-sizing: border-box;
+
+    .product-panel{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50vh;
+        padding: 5%;
+        margin: auto;
+        background-color: #eeeeee;
+        width: 90%;
+        border-radius: 8px;
+
+        .product{
+            
+            .product-info{
+                max-height: 15vh;
+                margin:0px 5%;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                
+            }
+        }
+        
+        .shipping,
+        .total{
+            border-top: 1px solid #BDBDBD;
+            margin-top: 5%;
+            justify-content: space-between !important;
+        }
+        .product,
+        .shipping, 
+        .total{
+            // padding: 10px 0px;
+            position: relative;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            img{
+                max-height: 15vh;
+                border-radius: 10px;
+                
+            }
+            
+
+        }
+    }
+                
+
+}

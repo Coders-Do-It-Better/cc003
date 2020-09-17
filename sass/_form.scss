@@ -1,0 +1,47 @@
+form{
+    width: 80%;
+    margin: auto !important;
+    position: relative;
+    float: left;
+    margin: 10px;
+    input{
+        width: 85%;
+        border: none;
+
+    }
+    .doubled-combo{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        .combo-country{
+            width: 38%;
+        }
+        .combo-postcode{
+            width:60%
+        }
+
+        .sub-combo{
+            width: 100%;
+        }
+
+        select{
+            border: none;
+        }
+    }
+    
+    
+
+}
+
+// @media only screen and (max-width: 1450px){
+// form{
+//     font-family: Mon;
+//     position: relative;
+//     display: block;
+// }
+// #shipping-address {
+//     margin-top: 50px;
+// }
+// }
+//}
